@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  basemq:
+    build:
+      context: .
+      target: develop
+      args:
+        - NODE_ENV=${NODE_ENV:-development}
+    volumes:
+      - ./examples:/usr/src/app/examples:rw
+      - ./src:/usr/src/app/src:rw
+    environment:
+      - NODE_ENV=${NODE_ENV:-development}

@@ -1,0 +1,19 @@
+# repository
+.git
+.gitignore
+*.md
+
+# editor
+.editorconfig
+.idea
+
+# docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# ci/cd
+.travis.yml
+
+# cache
+node_modules

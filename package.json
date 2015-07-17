@@ -1,0 +1,44 @@
+{
+  "name": "basemq",
+  "version": "1.0.0-beta.1",
+  "description": "Node.js Microservices Architecture framework based on ZeroMQ",
+  "main": "src/basemq.js",
+  "scripts": {
+    "develop": "nodemon --legacy-watch .",
+    "lint": "eslint examples/ src/",
+    "jest": "jest --verbose --passWithNoTests",
+    "test": "npm run-script lint && npm run-script jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietrum/basemq.git"
+  },
+  "author": "Fulkman <fulkman@pietrum.pl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pietrum/basemq/issues"
+  },
+  "homepage": "https://github.com/pietrum/basemq#readme",
+  "keywords": [
+    "basemq",
+    "zmq",
+    "zeromq",
+    "0mq",
+    "socket",
+    "request-reply",
+    "pub-sub"
+  ],
+  "dependencies": {
+    "debug": "^4.3.2",
+    "lodash.map": "^4.6.0",
+    "uuid": "^8.3.2",
+    "zeromq": "^6.0.0-beta.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "jest": "^27.2.1",
+    "nodemon": "^2.0.13"
+  }
+}
