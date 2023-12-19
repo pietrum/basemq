@@ -1,8 +1,8 @@
 # ----------------------------------------------------------------------------------------------------------------------
 # GLOBAL CONFIGURATION
 # ----------------------------------------------------------------------------------------------------------------------
-# Install Node.js v14.x on alpine
-ARG NODE_TAG=fermium-alpine3.14
+# Install Node.js v18.x on alpine
+ARG NODE_TAG=hydrogen-alpine3.18
 
 # Default to production, compose overrides this to development on build and run
 ARG DEBUG=basemq,basemq:*
