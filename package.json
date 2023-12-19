@@ -1,6 +1,6 @@
 {
   "name": "basemq",
-  "version": "1.0.0-beta.1",
+    "version": "1.0.0-beta.1",
   "description": "Node.js Microservices Architecture framework based on ZeroMQ",
   "main": "src/basemq.js",
   "scripts": {
@@ -29,16 +29,16 @@
     "pub-sub"
   ],
   "dependencies": {
-    "debug": "^4.3.2",
+    "debug": "^4.3.4",
     "lodash.map": "^4.6.0",
     "uuid": "^8.3.2",
-    "zeromq": "^6.0.0-beta.6"
+    "zeromq": "^6.0.0-beta.19"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-plugin-import": "^2.24.2",
-    "jest": "^27.2.1",
-    "nodemon": "^2.0.13"
+    "eslint-plugin-import": "^2.29.1",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.22"
   }
 }
